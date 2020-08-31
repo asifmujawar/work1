@@ -1,0 +1,287 @@
+body{
+    margin:0;
+    
+}
+.navbar 
+{
+    padding-bottom: 0 !important;
+    
+}
+.nav-item
+{
+    padding-right: 35px;
+    font-size: 20px;
+}
+.nav-link
+{
+    color:whitesmoke !important;
+}
+.nav-link:hover
+{
+    color:rgb(166, 253, 231) !important;
+}
+
+
+#intro
+{
+    background-color:  hsl(219, 30%, 18%); 
+    padding: 20px;  
+    
+    
+}
+.home
+{
+    text-align: center;
+}
+.home img
+{
+    width:40%;
+}
+
+
+.feature-box-head
+{
+    width:60%;
+    color: white;
+    margin:0 auto;
+    text-align: center;
+    line-height: 2.5;
+}
+
+
+#features
+{
+    background-color:hsl(219, 30%, 18%) ;
+    padding:0 20px;
+}
+#features .row
+{
+    padding-top: 60px;
+}
+#features p
+{
+    
+    margin-top:10px;
+}
+.feature-box
+{
+    
+    text-align: center;
+    color:white;
+    padding:30px 70px;
+}
+.feature-box img
+{
+    padding-bottom: 20px;
+}
+
+.productive
+{
+    padding:100px;
+    color:white;
+    background-color:  hsl(219, 30%, 18%);
+}
+.productive h2
+{
+    margin-bottom:50px;
+}
+.productive img
+{
+    width:80%;
+}
+.productive .head
+{
+    margin-top:100px;
+}
+.productive .row .illustrate img
+{
+    margin-left:auto;
+}
+.cards{
+    background-color:hsl(219, 30%, 18%) ;
+    padding:0px 0px;
+}
+.cards .row
+{
+    width:100%;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin:0 ;
+   
+    color:white;
+    
+}
+.cards .ca
+{
+    
+    color:white;
+    padding-top:20px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: hsl(218, 28%, 13%);
+    border-radius: 20px;
+}
+
+.cards p
+{
+    margin-bottom: 30px;
+}
+
+.ca img
+{
+    width:20%;
+    border-radius: 100% !important;   
+    float: left;
+
+    padding-right: 10px;
+}
+.ca img:first-child
+{
+    align-items: baseline;
+}
+
+.footer-link{
+    background-color:hsl(216, 53%, 9%) ;
+    padding:20px;
+    color: white;
+    text-decoration: none;
+}
+.footer-link ul li
+{
+   list-style: none;
+   padding-top: 20px;
+   text-decoration: none;
+   display: flex; 
+}
+.fimg
+{
+    padding-right: 10px;
+}
+.footer-link ul li:first-child
+{
+    align-items: baseline;
+}
+a
+{
+    color:white;
+    text-decoration: none;
+}
+a:hover
+{
+    color:rgb(99, 240, 216);
+    text-decoration: none;
+}
+.footer-link .ln:hover
+{
+    text-decoration: none;
+    color:white;
+}
+.footer-link i
+{
+    font-size: 25px;
+    padding-right: 20px;
+}
+.footer-link p
+{
+    margin-top:100px;
+}
+.footer-link .links
+{
+    padding-bottom: 20px;
+}
+.link2
+{
+    margin-top: 50px;
+    text-decoration: none;
+}
+.link3
+{
+    margin-top: 50px;
+}
+.link4
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.link5
+{
+    margin-top: 70px;
+    text-align: center;
+}
+.logofoot
+{
+    margin-left:40px;
+}
+h6
+{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.footer-link .access
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: -140px;
+    border-radius: 20px;
+    margin-bottom:50px;
+    
+}
+.footer-link .acrow
+{
+    padding:0 20px;
+}
+.footer-link .access
+{
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+    padding:50px;
+}
+.footer-link .access p
+{  
+    margin-top:10px;
+
+}
+.footer-link .access input
+{
+    border-radius:50px;
+    outline:none;
+    border:none;
+    width:auto;
+    padding:10px 20px;
+    margin-bottom:20px;
+}
+.bimg
+{
+    position: absolute;
+    margin-left:70px;
+    margin-top:-40px;
+}
+@media (max-width:875px)
+{
+    #intro
+    {
+        padding:0;
+    }
+    .home img
+    {
+        width:100%;
+    }
+    .feature-box-head
+    {
+        width:100%;
+    }
+    .productive
+    {
+        padding:10px;
+    }
+    .productive img
+    {
+        width:100%;
+    }
+}
